@@ -12,7 +12,7 @@ const InputForm = () => {
       dispatch(addTodo(currentValue))
       setCurrentValue('')
     }else{
-      alert("내용을 입력해주세요.")
+      alert("내용을 입력해주세요!!")
     }
   }
   return (
